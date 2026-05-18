@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyBuddy</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container header__wrapper">
+    <div class="logo">StudyBuddy</div>
+
+    <nav class="nav" id="nav">
+      <a href="#features">Функции</a>
+      <a href="#benefits">Преимущества</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#cta">Скачать</a>
+    </nav>
+
+    <div class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container hero__wrapper">
+
+    <div class="hero__content">
+  <h1 class="reveal">Планируй учебу без стресса</h1>
+
+  <p class="reveal delay1">
+    StudyBuddy помогает студентам эффективно управлять учебными задачами,
+    не пропускать дедлайны и держать весь процесс под контролем.
+  </p>
+
+  <p class="reveal delay2">
+    Более 5000 студентов уже используют приложение для повышения
+    продуктивности и достижения своих целей.
+  </p>
+
+  <!-- СОЦ ДОКАЗАТЕЛЬСТВА -->
+  <div class="hero__stats reveal delay2">
+    <div><strong>5000+</strong><span> студентов</span></div>
+    <div><strong>4.8</strong><span> рейтинг</span></div>
+    <div><strong>95%</strong><span> довольны</span></div>
+  </div>
+
+  <ul class="hero__list reveal delay3">
+    <li><i class="fa-solid fa-check"></i> Контроль дедлайнов</li>
+    <li><i class="fa-solid fa-check"></i> Умное планирование</li>
+    <li><i class="fa-solid fa-check"></i> Рост продуктивности</li>
+  </ul>
+
+  <div class="hero__buttons reveal delay3">
+    <a href="#cta" class="btn primary">Скачать</a>
+    <a href="#features" class="btn secondary">Подробнее</a>
+  </div>
+</div>
+
+    <div class="hero__image reveal delay2">
+      <img src="img/hero.png" alt="Интерфейс приложения StudyBuddy">
+    </div>
+
+  </div>
+</section>
+
+<section class="how reveal">
+  <div class="container glass">
+    <h2>Как это работает</h2>
+
+    <div class="cards">
+      <div class="card open-modal"><i class="fa-solid fa-pen"></i><h3>Создай</h3><p>Добавь задачи</p></div>
+      <div class="card open-modal"><i class="fa-solid fa-clock"></i><h3>Следи</h3><p>Не пропускай сроки</p></div>
+      <div class="card open-modal"><i class="fa-solid fa-check"></i><h3>Выполняй</h3><p>Закрывай задачи</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- НОВЫЕ ФУНКЦИИ -->
+<section id="features" class="reveal">
+  <div class="container glass">
+    <h2>Функции</h2>
+
+    <div class="features-grid">
+
+      <div class="feature-item">
+        <div class="feature-header">
+          <i class="fa-solid fa-list-check"></i>
+          <span>Планирование задач</span>
+        </div>
+        <div class="feature-body">
+          Создавай задачи, управляй приоритетами и временем.
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <div class="feature-header">
+          <i class="fa-solid fa-bell"></i>
+          <span>Напоминания</span>
+        </div>
+        <div class="feature-body">
+          Получай уведомления и не пропускай дедлайны.
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <div class="feature-header">
+          <i class="fa-solid fa-chart-line"></i>
+          <span>Прогресс</span>
+        </div>
+        <div class="feature-body">
+          Отслеживай выполнение задач и улучшай продуктивность.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="benefits" class="reveal">
+  <div class="container glass">
+    <h2>Преимущества</h2>
+
+    <div class="cards">
+      <div class="card"><i class="fa-solid fa-bolt"></i><h3>Экономия</h3><p>Быстрое планирование</p></div>
+      <div class="card"><i class="fa-solid fa-mobile"></i><h3>Удобство</h3><p>Простой интерфейс</p></div>
+      <div class="card"><i class="fa-solid fa-fire"></i><h3>Мотивация</h3><p>Рост эффективности</p></div>
+      <div class="card"><i class="fa-solid fa-chart-pie"></i><h3>Контроль</h3><p>Аналитика задач</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews" class="reveal">
+  <div class="container glass">
+    <h2>Отзывы</h2>
+
+    <div class="reviews__grid">
+      <div class="review"><i class="fa-solid fa-user"></i><p>"Очень удобно!"</p><span>Анна</span></div>
+      <div class="review"><i class="fa-solid fa-user"></i><p>"Спасает дедлайны"</p><span>Дмитрий</span></div>
+      <div class="review"><i class="fa-solid fa-user"></i><p>"Лучшее приложение"</p><span>Мария</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="cta" class="reveal">
+  <div class="container glass">
+    <h2>Начни сейчас</h2>
+
+    <form id="form" class="form">
+      <input type="text" placeholder="Имя" id="name" aria-label="Имя">
+      <input type="email" placeholder="Email" id="email" aria-label="Email">
+      <button type="submit" class="btn primary">Получить доступ</button>
+    </form>
+
+    <p id="message"></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__wrapper">
+
+    <div>
+      <h3>StudyBuddy</h3>
+      <p>Приложение для студентов</p>
+    </div>
+
+    <div class="footer__links">
+      <a href="#">Instagram</a>
+      <a href="#">Telegram</a>
+      <a href="#">Email</a>
+    </div>
+
+    <div>
+      <p>© 2026 StudyBuddy</p>
+      <p>Политика конфиденциальности</p>
+    </div>
+
+  </div>
+</footer>
+<div class="modal" id="modal">
+
+  <div class="modal__content">
+
+    <span class="modal__close" id="modalClose">&times;</span>
+
+    <h3>Подробнее</h3>
+
+    <p>
+
+      StudyBuddy помогает студентам управлять временем, 
+
+      отслеживать задачи и достигать целей быстрее.
+
+    </p>
+
+  </div>
+
+</div>
+<script src="js/script.js"></script>
+
+</body>
+</html>
