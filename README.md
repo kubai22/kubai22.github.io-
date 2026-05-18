@@ -73,7 +73,7 @@ StudyBuddy — это интерактивная посадочная стран
 
 ## 🌐 Деплой
 Проект доступен по ссылке:
-https://YOUR-GITHUB-USERNAME.github.io/studybuddy-landing/
+https://kubai22.github.io/kubai22.github.io-/
 
 ---
 
